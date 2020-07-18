@@ -5,6 +5,7 @@ const theme = createMuiTheme({
   palette: {
     primary: yellow,
     secondary: green,
+    type: 'dark',
   },
   status: {
     danger: 'orange',

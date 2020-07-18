@@ -71,13 +71,13 @@ function App() {
       >
         <DialogTitle id="alert-dialog-slide-title">Contact Me</DialogTitle>
         <DialogActions>
-          <IconButton onClick={github}>
+          <IconButton onClick={github} color="primary">
             <GitHubIcon />
           </IconButton>
-          <IconButton onClick={email}>
+          <IconButton onClick={email} color="secondary">
             <ContactMailIcon />
           </IconButton>
-          <IconButton onClick={linkedin}>
+          <IconButton onClick={linkedin} color="primary">
             <LinkedInIcon />
           </IconButton>
         </DialogActions>

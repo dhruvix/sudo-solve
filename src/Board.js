@@ -23,7 +23,7 @@ function Board() {
 
     function getSquare(i,j){
         return(
-            <Square clic={() => handleClick(i,j)} value={squares[i][j]}/>
+            <Square clic={() => handleClick(i,j)} value={squares[i][j]} x={i} y={j}/>
         )
     }
 
